@@ -1,5 +1,4 @@
 # 2D Arrays Matrices
-# 2 Dimensional Arrays
 Experiment 8
 
 
@@ -41,7 +40,7 @@ int matrix[3][4] = {
 
 ## 
 
-# Input and Display a 2D Array.
+# Display the Matrices.
 
 1. **Start**
 
@@ -67,7 +66,7 @@ int matrix[3][4] = {
 6. **End**
 
 
-# Sum of Diagonal Elements in a Square Matrix
+# Addition of Diagonal of Matrices.
 
 1. **Start**
 
@@ -104,3 +103,28 @@ int matrix[3][4] = {
 
 4. **End**
 
+# Multiplication of Matrices.
+
+1. **Input Matrix Dimensions:**
+   - Matrix A: Number of rows (`rA`) and columns (`cA`).
+   - Matrix B: Number of rows (`rB`) and columns (`cB`).
+
+2. **Check Matrix Multiplication Validity:**
+   - Ensure that the number of columns in Matrix A (`cA`) matches the number of rows in Matrix B (`rB`). If not, matrix multiplication cannot be performed.
+
+3. **Allocate Memory for Matrices:**
+   - Create Matrix A of size `rA x cA`.
+   - Create Matrix B of size `rB x cB`.
+   - Create Matrix C for the result of size rA x cB and initialize it to zero.
+
+4. **Input Matrix Elements:**
+   - Input elements for Matrix A.
+   - Input elements for Matrix B.
+
+5. **Perform Matrix Multiplication:**
+   - Initialize all elements of Matrix C to 0.
+   - For each element `C[i][j]` in the resulting matrix:
+     - Compute `C[i][j]` as the sum of the products of corresponding elements from the row `i` of Matrix A and column `j` of Matrix B.
+
+6. **Output the Result:**
+   - Display the resultant Matrix C.
