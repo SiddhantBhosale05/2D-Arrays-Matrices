@@ -1,6 +1,6 @@
 //Name:Siddhant Kiran Bhosale
 //PRN:23070123038
-//Aim:Implemention of 2D Arrays - Matrices to Transpose of Matrices
+//Aim:Implementation of 2D Arrays - Matrices to Transpose of Matrices
 
 #include <iostream>
 using namespace std;
